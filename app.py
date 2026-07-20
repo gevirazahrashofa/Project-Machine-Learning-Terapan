@@ -175,11 +175,11 @@ st.sidebar.title("📱 Menu Dashboard")
 page = st.sidebar.radio(
     "Pilih Halaman",
     [
-        "🏠 Beranda",
-        "📊 Eksplorasi Data",
-        "🔍 Rekomendasi Content-Based",
-        "👥 Rekomendasi Collaborative Filtering",
-        "ℹ️ Tentang Proyek",
+        "Beranda",
+        "Eksplorasi Data",
+        "Rekomendasi Content-Based",
+        "Rekomendasi Collaborative Filtering",
+        "Tentang Proyek",
     ],
 )
 
@@ -192,7 +192,7 @@ st.sidebar.caption(
 # ----------------------------------------------------------------------------
 # HALAMAN: BERANDA
 # ----------------------------------------------------------------------------
-if page == "🏠 Beranda":
+if page == "Beranda":
     st.title("📱 Sistem Rekomendasi Smartphone")
     st.markdown(
         "Dashboard ini mengimplementasikan sistem rekomendasi smartphone berbasis "
@@ -209,10 +209,10 @@ if page == "🏠 Beranda":
     st.markdown("### Cara Menggunakan")
     st.markdown(
         """
-        - **📊 Eksplorasi Data**: melihat gambaran umum dataset (distribusi brand, harga, OS, dll).
-        - **🔍 Rekomendasi Content-Based**: pilih satu smartphone, sistem akan menampilkan
+        - **Eksplorasi Data**: melihat gambaran umum dataset (distribusi brand, harga, OS, dll).
+        - **Rekomendasi Content-Based**: pilih satu smartphone, sistem akan menampilkan
           smartphone lain dengan spesifikasi paling mirip.
-        - **👥 Rekomendasi Collaborative Filtering**: pilih user, sistem akan memprediksi
+        - **Rekomendasi Collaborative Filtering**: pilih user, sistem akan memprediksi
           smartphone yang mungkin disukai berdasarkan pola rating pengguna lain yang mirip.
         """
     )
@@ -392,7 +392,7 @@ elif page == "👥 Rekomendasi Collaborative Filtering":
 # HALAMAN: TENTANG PROYEK
 # ----------------------------------------------------------------------------
 else:
-    st.title("ℹ️ Tentang Proyek")
+    st.title("Tentang Proyek")
     st.markdown(
         """
         Dashboard ini adalah implementasi sederhana dari proyek **Sistem Rekomendasi
