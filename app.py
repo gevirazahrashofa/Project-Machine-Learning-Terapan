@@ -22,7 +22,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+DATA_DIR = os.path.dirname(__file__)  # CSV berada di root repo, sejajar dengan app.py
 
 
 # ----------------------------------------------------------------------------
